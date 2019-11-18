@@ -1,6 +1,6 @@
-FROM amazoncorretto:8u232
+FROM openjdk:8
 
-ARG version
+ENV version=2.0.1
 
 RUN wget https://github.com/browserup/browserup-proxy/releases/download/v${version}/browserup-proxy-${version}.tar
 RUN tar xvf browserup-proxy-${version}.tar
