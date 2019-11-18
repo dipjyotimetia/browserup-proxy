@@ -1,4 +1,4 @@
-FROM openjdk:14-alpine
+FROM amazoncorretto:8u232
 
 ARG version
 
